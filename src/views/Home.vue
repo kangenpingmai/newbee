@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    你好
-    <van-button type="primary">默认按钮</van-button>
+    <div>你好</div>
+    <!-- <van-button type="primary">默认按钮</van-button> -->
   </div>
 </template>
 
@@ -11,13 +11,17 @@
 
 export default {
   name: 'Home'
-  
+
 }
 </script>
 
 <style lang="less" scoped>
-	.home{
-		color: red;
-	}
-
+.home {
+  div {
+    background: greenyellow;
+    width: 75px;
+    height: 75px;
+    font-size: 18px;
+  }
+}
 </style>
