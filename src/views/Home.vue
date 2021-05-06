@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <div>你好</div>
+    <!-- <div>你好</div> -->
+    <div><i class="iconfont iconnaozhong"></i></div>
     <!-- <van-button type="primary">默认按钮</van-button> -->
   </div>
 </template>
@@ -18,10 +19,13 @@ export default {
 <style lang="less" scoped>
 .home {
   div {
-    background: greenyellow;
+    // background: greenyellow;
     width: 75px;
     height: 75px;
     font-size: 18px;
+    i {
+      color: red;
+    }
   }
 }
 </style>
