@@ -2,15 +2,19 @@
   <div class="nav-bar">
     <ul class="nav-list">
       <router-link tag="li" class="nav-list-item active" to="home">
+        <i class="iconfont iconhome"></i>
         <span>首页</span>
       </router-link>
       <router-link tag="li" class="nav-list-item" to="category">
+        <i class="iconfont iconleimupinleifenleileibie"></i>
         <span>分类</span>
       </router-link>
       <router-link tag="li" class="nav-list-item" to="cart">
+        <i class="iconfont icongouwuche"></i>
         <span>购物车</span>
       </router-link>
       <router-link tag="li" class="nav-list-item" to="user">
+        <i class="iconfont iconwode"></i>
         <span>我的</span>
       </router-link>
     </ul>
